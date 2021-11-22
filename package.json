@@ -1,0 +1,29 @@
+{
+  "name": "fast-serverless-aws",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "yalc": "yalc"
+  },
+  "devDependencies": {
+    "@aws-cdk/assertions": "1.133.0",
+    "@types/aws-lambda": "^8.10.85",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "~3.9.7",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "1.133.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.133.0",
+    "fast-serverless-core": "file:.yalc/fast-serverless-core"
+  }
+}

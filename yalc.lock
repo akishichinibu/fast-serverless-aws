@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "fast-serverless-core": {
+      "version": "1.0.0",
+      "signature": "6111b2ee8f7c428c8420c02d521f7a98",
+      "file": true
+    }
+  }
+}
